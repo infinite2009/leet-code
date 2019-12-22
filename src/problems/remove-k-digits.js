@@ -23,4 +23,7 @@ const removeK = (num, k) => {
     }
 };
 
-module.exports = removeK;
+const str = '112'; // 1000543210
+const k1 = 1;
+
+console.log(removeK(str, k1));

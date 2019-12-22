@@ -1,7 +1,4 @@
-module.exports = (nums, k) => {
-    // total number
-    // const nums = [1,2,1,2,1];
-    // const k = 3;
+const testSubArraySumEqualsK = (nums, k) => {
     let result = 0;
     for (let i = 0, l = nums.length; i < l; i++) {
 
@@ -17,3 +14,8 @@ module.exports = (nums, k) => {
     }
     return result;
 };
+
+const nums = [0,0,0,0,0,0,0,0,0,0];
+const k = 0;
+
+console.log(testSubArraySumEqualsK(nums, k));
